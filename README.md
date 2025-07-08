@@ -1,89 +1,80 @@
-````markdown
-<!--
-  ╔══════════════════════════════════════════════╗
-  ║    🎉 Welcome to MemoryHub! A Modern README ║
-  ╚══════════════════════════════════════════════╝
--->
+--------------------------------------------------------------------------------
+🏷️ MemoryHub
+Location-based journaling platform to pin meaningful places on an interactive map and enrich each pin with photos, short videos, voice notes, and text.
+With granular privacy controls (private, shared, or public), users can curate personal memories, collaborate in groups, and engage with a broader community—while administrators maintain content quality through moderation tools.
+--------------------------------------------------------------------------------
 
-![MemoryHub Banner](https://img.shields.io/badge/MemoryHub-Location%20Based%20Journaling-blueviolet?style=for-the-badge&logo=mapbox)
+🚀 Table of Contents
+--------------------------------------------------------------------------------
+1. Features
+2. Tech Stack
+3. Demo
+4. Getting Started
+5. Usage
+6. Roadmap
+7. Contributing
+8. Team
+9. License
 
-# MemoryHub
-
-**Location-based journaling platform** to pin meaningful places on an interactive map and enrich each pin with photos, short videos, voice notes, and text.  
-With **granular privacy controls** (private, shared, or public), users can curate personal memories, collaborate in groups, and engage with a broader community—while administrators maintain content quality through moderation tools.
-
----
-
-## 🚀 Table of Contents
-
-1. [Features](#-features)  
-2. [Tech Stack](#-tech-stack)  
-3. [Demo](#-demo)  
-4. [Getting Started](#-getting-started)  
-5. [Usage](#-usage)  
-6. [Roadmap](#-roadmap)  
-7. [Contributing](#-contributing)  
-8. [Team](#-team)  
-9. [License](#-license)  
-
----
-
-## ✨ Features
-
-- **Interactive Map**  
+--------------------------------------------------------------------------------
+✨ Features
+--------------------------------------------------------------------------------
+- Interactive Map
   Pin your memories to exact locations with intuitive drag-and-drop controls.
 
-- **Rich Media Support**  
-  Add **photos**, **short videos**, and **voice notes** to every memory.
+- Rich Media Support
+  Add photos, short videos, and voice notes to every memory.
 
-- **Privacy Controls**  
-  - 🔒 Private: Only you can view  
-  - 👥 Shared: Invite-only groups  
-  - 🌐 Public: Everyone on MemoryHub
+- Privacy Controls
+  • Private: Only you can view
+  • Shared: Invite-only groups
+  • Public: Everyone on MemoryHub
 
-- **Groups & Collaboration**  
+- Groups & Collaboration
   Create shared “Memory Groups” for events like weddings, reunions, or trips.
 
-- **Community Exploration**  
+- Community Exploration
   Discover public memory pins by others around the world.
 
-- **Admin Moderation**  
+- Admin Moderation
   Administrators can review, approve, or remove content to maintain quality.
 
----
+--------------------------------------------------------------------------------
+🛠️ Tech Stack
+--------------------------------------------------------------------------------
 
-## 🛠️ Tech Stack
+Backend
+-------
+Language & Framework:
+  • TypeScript + Node.js
+  • Express.js
 
-### 🔙 Backend
+Database:
+  • MongoDB (mongoose)
 
-- **Language & Framework**  
-  - TypeScript + Node.js  
-  - Express.js  
-- **Database**  
-  - MongoDB (mongoose)  
-- **Auth & Security**  
-  - JSON Web Tokens (jsonwebtoken)  
-  - bcryptjs for password hashing  
-  - helmet for HTTP headers  
-  - cors  
-- **Media & Storage**  
-  - multer & streamifier for file uploads  
-  - Cloudinary for image/video hosting  
-- **Utilities & Logging**  
-  - axios  
-  - winston & morgan  
-  - dotenv  
-  - express-validator & express-async-handler  
-  - ulid for unique IDs  
-- **Dev Tools**  
-  - TypeScript, ts-node  
-  - nodemon  
-  - prettier  
+Auth & Security:
+  • JSON Web Tokens (jsonwebtoken)
+  • bcryptjs for password hashing
+  • helmet for HTTP headers
+  • cors
 
-<details>
-<summary><code>package.json</code> (backend)</summary>
+Media & Storage:
+  • multer & streamifier for file uploads
+  • Cloudinary for image/video hosting
 
-```json
+Utilities & Logging:
+  • axios
+  • winston & morgan
+  • dotenv
+  • express-validator & express-async-handler
+  • ulid for unique IDs
+
+Dev Tools:
+  • TypeScript, ts-node
+  • nodemon
+  • prettier
+
+<package.json> (backend)
 {
   "name": "final-project-backend",
   "version": "1.0.0",
@@ -128,39 +119,32 @@ With **granular privacy controls** (private, shared, or public), users can curat
     "typescript": "^5.8.3"
   }
 }
-````
 
-</details>
+Frontend
+--------
+Language & Framework:
+  • React 19 (hooks & functional components)
+  • Vite for fast dev server
 
-### 🔜 Frontend
+Styling & UI:
+  • Tailwind CSS
+  • Framer Motion for animations
+  • react-icons
 
-* **Language & Framework**
+Maps & Geolocation:
+  • react-map-gl (Mapbox GL)
+  • leaflet
 
-  * React 19 (hooks & functional components)
-  * Vite for fast dev server
-* **Styling & UI**
+Forms & State:
+  • Formik
+  • jwt-decode
 
-  * Tailwind CSS
-  * Framer Motion for animations
-  * react-icons
-* **Maps & Geolocation**
+Charts & Feedback:
+  • chart.js & react-chartjs-2
+  • react-toastify
+  • sweetalert2
 
-  * react-map-gl (Mapbox GL)
-  * leaflet
-* **Forms & State**
-
-  * Formik
-  * jwt-decode
-* **Charts & Feedback**
-
-  * chart.js & react-chartjs-2
-  * react-toastify
-  * sweetalert2
-
-<details>
-<summary><code>package.json</code> (frontend)</summary>
-
-```json
+<package.json> (frontend)
 {
   "name": "w8-d4-project",
   "private": true,
@@ -192,7 +176,7 @@ With **granular privacy controls** (private, shared, or public), users can curat
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
-    "@types/react": "^19.1.2",
+    "@types-react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
     "@vitejs/plugin-react": "^4.4.1",
     "eslint": "^9.25.0",
@@ -202,98 +186,73 @@ With **granular privacy controls** (private, shared, or public), users can curat
     "vite": "^6.3.5"
   }
 }
-```
 
-</details>
+--------------------------------------------------------------------------------
+🎬 Demo
+--------------------------------------------------------------------------------
+[Embed a demo GIF or include link to live demo]
 
----
+--------------------------------------------------------------------------------
+🛠️ Getting Started
+--------------------------------------------------------------------------------
 
-## 🎬 Demo
+Prerequisites:
+  • Node.js (v16+)
+  • npm or yarn
+  • A MongoDB database (Atlas or local)
+  • Mapbox access token
 
-![MemoryHub Demo Gif](https://media.giphy.com/media/3og0IPxMM0erATueVW/giphy.gif)
+Installation:
+  1. Clone the repo:
+     git clone https://github.com/YourOrg/MemoryHub.git
+     cd MemoryHub
 
----
+  2. Install backend dependencies:
+     cd backend
+     npm install  (or yarn)
 
-## 🛠️ Getting Started
+  3. Install frontend dependencies:
+     cd ../frontend
+     npm install  (or yarn)
 
-### Prerequisites
+  4. Run development servers in two terminals:
+     • Backend: npm run dev
+     • Frontend: npm run dev
 
-* Node.js (v16+)
-* npm or yarn
-* A MongoDB database (Atlas or local)
-* Mapbox access token
-
-### Installation
-
-```bash
-# Clone the repo
-git clone https://github.com/YourOrg/MemoryHub.git
-cd MemoryHub
-
-# Install backend dependencies
-cd backend
-npm install
-# or
-yarn
-
-# Install frontend dependencies
-cd ../frontend
-npm install
-# or
-yarn
-
-# Run development servers
-# In two terminals:
-# 1) Backend
-npm run dev
-# 2) Frontend
-npm run dev
-```
-
----
-
-## 📦 Usage
-
+--------------------------------------------------------------------------------
+📦 Usage
+--------------------------------------------------------------------------------
 1. Sign up or log in.
 2. Click on the map to create a new pin.
 3. Fill in title, description, and privacy level.
 4. Upload media (photos, videos, or voice notes).
 5. Save and revisit your memories anytime!
 
----
+--------------------------------------------------------------------------------
+🗺️ Roadmap
+--------------------------------------------------------------------------------
+- [ ] Mobile-friendly UI
+- [ ] Real-time collaboration in groups
+- [ ] Geofencing notifications
+- [ ] Personalized memory suggestions
+- [ ] Dark mode & accessibility enhancements
 
-## 🗺️ Roadmap
+--------------------------------------------------------------------------------
+🤝 Contributing
+--------------------------------------------------------------------------------
+We love contributions! Please read CONTRIBUTING.md and CODE_OF_CONDUCT.md before opening an issue or PR.
 
-* [ ] Mobile-friendly UI
-* [ ] Real-time collaboration in groups
-* [ ] Geofencing notifications
-* [ ] Personalized memory suggestions
-* [ ] Dark mode & accessibility enhancements
+--------------------------------------------------------------------------------
+👥 Team
+--------------------------------------------------------------------------------
+Azzam Alshaye          | azzamalshaye@gmail.com          | https://github.com/AzzamAlshaye
+Asma Alqahtani         | asmaalqhtani123@gmail.com       | https://github.com/AAbAlQahtani
+Rana Aldosari          | ranaaldosari10@gmail.com        | https://github.com/RanaAldosari
+Khaled Almutairi       | khaledalmutairi220@hotmail.com  | https://github.com/g39g1
 
----
+--------------------------------------------------------------------------------
+📄 License
+--------------------------------------------------------------------------------
+Distributed under the MIT License. See LICENSE file for details.
 
-## 🤝 Contributing
-
-We ❤️ contributions! Please read our [Contributing Guidelines](./CONTRIBUTING.md) and [Code of Conduct](./CODE_OF_CONDUCT.md) before opening an issue or PR.
-
----
-
-## 👥 Team
-
-| Name                 | Email                                                                   | GitHub                                           |
-| -------------------- | ----------------------------------------------------------------------- | ------------------------------------------------ |
-| **Azzam Alshaye**    | [azzamalshaye@gmail.com](mailto:azzamalshaye@gmail.com)                 | [@AzzamAlshaye](https://github.com/AzzamAlshaye) |
-| **Asma Alqahtani**   | [asmaalqhtani123@gmail.com](mailto:asmaalqhtani123@gmail.com)           | [@AAbAlQahtani](https://github.com/AAbAlQahtani) |
-| **Rana Aldosari**    | [ranaaldosari10@gmail.com](mailto:ranaaldosari10@gmail.com)             | [@RanaAldosari](https://github.com/RanaAldosari) |
-| **Khaled Almutairi** | [khaledalmutairi220@hotmail.com](mailto:khaledalmutairi220@hotmail.com) | [@g39g1](https://github.com/g39g1)               |
-
----
-
-## 📄 License
-
-Distributed under the MIT License. See [LICENSE](./LICENSE) for details.
-
-> Built with ❤️ by the MemoryHub Team
-
-```
-```
+Built with ❤️ by the MemoryHub Team
