@@ -1,5 +1,6 @@
 --------------------------------------------------------------------------------
-🏷️ MemoryHub
+🏷️ MemoryHub:
+
 Location-based journaling platform to pin meaningful places on an interactive map and enrich each pin with photos, short videos, voice notes, and text.
 With granular privacy controls (private, shared, or public), users can curate personal memories, collaborate in groups, and engage with a broader community—while administrators maintain content quality through moderation tools.
 --------------------------------------------------------------------------------
