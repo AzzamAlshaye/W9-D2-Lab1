@@ -1,6 +1,5 @@
 --------------------------------------------------------------------------------
-🏷️ MemoryHub:
-
+🏷️ MemoryHub
 Location-based journaling platform to pin meaningful places on an interactive map and enrich each pin with photos, short videos, voice notes, and text.
 With granular privacy controls (private, shared, or public), users can curate personal memories, collaborate in groups, and engage with a broader community—while administrators maintain content quality through moderation tools.
 --------------------------------------------------------------------------------
@@ -134,7 +133,6 @@ Styling & UI:
 
 Maps & Geolocation:
   • react-map-gl (Mapbox GL)
-  • leaflet
 
 Forms & State:
   • Formik
@@ -189,11 +187,6 @@ Charts & Feedback:
 }
 
 --------------------------------------------------------------------------------
-🎬 Demo
---------------------------------------------------------------------------------
-[Embed a demo GIF or include link to live demo]
-
---------------------------------------------------------------------------------
 🛠️ Getting Started
 --------------------------------------------------------------------------------
 
@@ -205,8 +198,8 @@ Prerequisites:
 
 Installation:
   1. Clone the repo:
-     git clone https://github.com/YourOrg/MemoryHub.git
-     cd MemoryHub
+     git clone https://github.com/AzzamAlshaye/MemoryHub-frontend.git (MemoryHub-backend)
+     cd MemoryHub-frontend (backend)
 
   2. Install backend dependencies:
      cd backend
@@ -226,23 +219,15 @@ Installation:
 1. Sign up or log in.
 2. Click on the map to create a new pin.
 3. Fill in title, description, and privacy level.
-4. Upload media (photos, videos, or voice notes).
+4. Upload media (photos, videos).
 5. Save and revisit your memories anytime!
 
 --------------------------------------------------------------------------------
 🗺️ Roadmap
 --------------------------------------------------------------------------------
 - [ ] Mobile-friendly UI
-- [ ] Real-time collaboration in groups
+- [ ] collaboration in groups
 - [ ] Geofencing notifications
-- [ ] Personalized memory suggestions
-- [ ] Dark mode & accessibility enhancements
-
---------------------------------------------------------------------------------
-🤝 Contributing
---------------------------------------------------------------------------------
-We love contributions! Please read CONTRIBUTING.md and CODE_OF_CONDUCT.md before opening an issue or PR.
-
 --------------------------------------------------------------------------------
 👥 Team
 --------------------------------------------------------------------------------
@@ -252,8 +237,4 @@ Rana Aldosari          | ranaaldosari10@gmail.com        | https://github.com/Ra
 Khaled Almutairi       | khaledalmutairi220@hotmail.com  | https://github.com/g39g1
 
 --------------------------------------------------------------------------------
-📄 License
---------------------------------------------------------------------------------
-Distributed under the MIT License. See LICENSE file for details.
-
 Built with ❤️ by the MemoryHub Team
