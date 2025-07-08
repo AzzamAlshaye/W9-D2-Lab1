@@ -227,12 +227,16 @@ Installation:
 - [ ] collaboration in groups
 - [ ] Geofencing notifications
 --------------------------------------------------------------------------------
+
 👥 Team
 --------------------------------------------------------------------------------
-Azzam Alshaye          | azzamalshaye@gmail.com          | https://github.com/AzzamAlshaye
-Asma Alqahtani         | asmaalqhtani123@gmail.com       | https://github.com/AAbAlQahtani
-Rana Aldosari          | ranaaldosari10@gmail.com        | https://github.com/RanaAldosari
-Khaled Almutairi       | khaledalmutairi220@hotmail.com  | https://github.com/g39g1
+| Name               | Email                          | GitHub                             |
+|--------------------|--------------------------------|------------------------------------|
+| Azzam Alshaye      | azzamalshaye@gmail.com         | https://github.com/AzzamAlshaye    |
+| Asma Alqahtani     | asmaalqhtani123@gmail.com      | https://github.com/AAbAlQahtani    |
+| Rana Aldosari      | ranaaldosari10@gmail.com       | https://github.com/RanaAldosari    |
+| Khaled Almutairi   | khaledalmutairi220@hotmail.com | https://github.com/g39g1           |
+
 
 --------------------------------------------------------------------------------
 Built with ❤️ by the MemoryHub Team
