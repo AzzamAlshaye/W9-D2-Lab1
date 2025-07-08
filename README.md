@@ -9,14 +9,11 @@ With granular privacy controls (private, shared, or public), users can curate pe
 --------------------------------------------------------------------------------
 1. Features
 2. Tech Stack
-3. Demo
-4. Getting Started
-5. Usage
-6. Roadmap
-7. Contributing
-8. Team
-9. License
-
+3. Getting Started
+4. Usage
+5. Roadmap
+6. Contributing
+7. Team
 --------------------------------------------------------------------------------
 ✨ Features
 --------------------------------------------------------------------------------
